@@ -28,6 +28,7 @@ groups:
             # 安装必须的软件
 
             1. Python 3.5.2
+            1. Pycharm 2016.3
             1. Git for Windows
             1. TortoisGit
 
