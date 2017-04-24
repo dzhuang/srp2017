@@ -53,4 +53,12 @@ groups:
         ``pip install -r requirements.txt``
 
 
+    -
+        type: Page
+        id: relate-setup4
+        content: |
+
+            # 配置数据库
+
+        ``在pgadmin III下配置relate数据库``
 
