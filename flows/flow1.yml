@@ -1,0 +1,55 @@
+title: "内容1: 本地搭建RELATE项目"
+description: |
+
+    ## 内容1: 本地搭建RELATE项目
+
+rules:
+    access:
+      -
+        if_has_role: [instructor,ta,student]
+        permissions: [view]
+
+    grade_identifier: null
+
+    grading:
+    -   generates_grade: false
+
+groups:
+-
+    id: django-relate
+    shuffle: False
+    pages:
+
+    -
+        type: Page
+        id: relate-setup1
+        content: |
+
+            # 安装必须的软件
+
+            1. Python 3.5.2
+            1. Git for Windows
+            1. TortoisGit
+
+
+    -
+        type: Page
+        id: relate-setup2
+        content: |
+
+            # 克隆Relate
+
+          ``git clone https://gitlab.tiker.net/inducer/relate``
+
+
+    -
+        type: Page
+        id: relate-setup3
+        content: |
+
+            # 安装依赖包
+
+        ``pip install -r requirements.txt``
+
+
+

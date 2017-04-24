@@ -1,0 +1,27 @@
+chunks:
+
+-
+    title: "Welcome to the srp2017 course"
+    id: welcome
+    rules:
+    -
+        if_after: end_week 3
+        if_before: 2038-01-01 13:00:00 -5
+        weight: 100
+
+    -
+        weight: 0
+
+    content: |
+
+        # About SRP2017
+
+        这是SRP项目《基于Python的应用数学类课程...》的Sample课程.
+
+        <a href="flow:quiz-test" role="button" class="btn btn-default">测试flow</a>.
+
+        <a href="flow:flow1" role="button" class="btn btn-default">内容flow1</a>.
+
+        <img src="repo:images/classroom.jpeg">
+
+        (![creative commons](repo:images/cc.png)/by [kevin dooley](https://secure.flickr.com/photos/pagedooley/13905987989/) on Flickr)
